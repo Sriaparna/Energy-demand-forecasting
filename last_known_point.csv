@@ -1,0 +1,2 @@
+AEP_MW,hour,dayofweek,quarter,month,year,dayofyear,lag_1h,lag_24h,rolling_mean_24h,rolling_std_24h,prediction,error,abs_error
+14809.0,0,4,3,8,2018,215,15964.0,14125.0,15716.166666666666,2362.6724122343267,14818.226,-9.2255859375,9.2255859375
