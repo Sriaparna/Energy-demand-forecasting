@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 st.set_page_config(page_title="AEP Energy Forecaster", layout="wide")
 st.title("⚡ AEP Hourly Load Forecaster")
 
-model=joblib.load('/home/sriaparna/AI/energy_forecast/energy_xgb_model.pkl')
+model = joblib.load('energy_xgb_model.pkl')
 last_point = pd.read_csv('last_known_point.csv')
 
 def predict_future(model, start_point, steps):
